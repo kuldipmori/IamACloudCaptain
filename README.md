@@ -67,29 +67,31 @@ To contribute to the **"IamACloudCaptain"** project, follow these steps:
 
     Add: [Firstname - Lastname]'s details
     ```
+4. **Add Your Details:** Open the [profiles](./profiles/readme.md) directory and add the your information using the template provided.
+    ```markdown
+    ## Data Format
+
+| **Name**                         | **GitHub Profile**                                              | **Location**              | **Current Company**  | **Current Role/Designation** | **Skills Keywords**  | **Specific Roles of Interest**  | **CV/Resume**  |
+|----------------------------------|------------------------------------------------------------------|---------------------------|-----------------------|------------------------------|----------------------|---------------------------------|----------------|
+| Mehul Patel                         | [GitHub Profile](https://github.com/nomadicmehul/)                                          | Gandhinagar, India             | ABC Solutions         | DevOps Engineer              | AWS, Docker, Kubernetes | Cloud Architect                 | [CV/Resume](./resumes/Mehul_Patel_Resume.pdf) |
+| Jane Smith                       | [GitHub Profile](link)                                          | San Francisco, USA        | XYZ Corporation        | Cloud Architect              | Azure, Terraform       | DevOps Engineer                 | [CV/Resume](link) |
+| ...                              | ...                                                              | ...                       | ...                   | ...                          | ...                  | ...                             | ...              |
 
     ```
-    For Description
+### Adding a Folder for CV/Resume Documents
 
-    - Working technology experience.
-    - Total experience.
-    ...
+In this updated table, the `CV/Resume` field contains a link pointing to the `resumes` folder where each contributor's CV/Resume document is stored. Replace `Mehul_Patel_Resume.pdf` with the actual file name of the respective contributor's CV/Resume document within the `resumes` folder. This structure ensures that each contributor's document is stored separately and linked from the main table in the README file.
+
+5. **Commit Changes:** Add and commit your changes.
+    ```bash
+    git add .
+    git commit -m "Add: [Your Name]'s details"
     ```
-
-    ![](./guide_image/10.png)
-
-11. **Confirm Merge:** Confirm the merge and commit for the merge, ensuring that you grant access with "Allow edits by maintainers."
-
-    ![](./guide_image/11.png)
-
-
-## Data Format
-
-| **Name**        | **GitHub Profile**                                       | **Current Location**           | **Current Company** | **Current Role/Designation** | **Skills Keywords**         | **Specific Roles of Interest** | **CV/Resume**                          | **LinkedIn Profile**                    | **Availability** |
-|-----------------|----------------------------------------------------------|------------------------|----------------------|------------------------------|-----------------------------|------------------------------------|---------------------------------------|---------------------------------------|-------------------|
-| Mehul Patel      | [GitHub Profile](https://github.com/nomadicmehul/)      | Gandhinagar, India     | ABC Solutions         | DevOps Engineer              | AWS, Docker, Kubernetes    | Cloud Architect                    | [CV/Resume](./resumes/Mehul_Patel_Resume.pdf) | [LinkedIn Profile](linkedin_profile_link) | Immediate        |
-| Jane Smith       | [GitHub Profile](link)                                   | San Francisco, USA     | XYZ Corporation       | Cloud Architect              | Azure, Terraform            | DevOps Engineer                    | [CV/Resume](link)                       | [LinkedIn Profile](linkedin_profile_link) | 2 months notice   |
-| ...             | ...                                                      | ...                    | ...                  | ...                          | ...                         | ...                                | ...                                   | ...                                   | ...               
+6. **Push Changes:** Push your changes to your forked repository.
+    ```bash
+    git push origin add-my-details
+    ```
+7. **Create Pull Request:** Create a Pull Request from your forked repository to the main repository's `main` branch.
 
 ### Guidelines for Adding Details
 
